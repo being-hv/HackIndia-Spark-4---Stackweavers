@@ -1,0 +1,22 @@
+{
+  "name": "decentralized-voting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "browserify ./src/js/app.js -o ./src/dist/app.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.6.18",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "truffle": "^5.8.2",
+    "web3": "^4.13.0"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.1"
+  }
+}
